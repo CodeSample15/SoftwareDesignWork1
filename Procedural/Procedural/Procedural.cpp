@@ -2,16 +2,16 @@
 *   Luke Crimi
 *   Procedural.cpp
 *   2/5/2021
-*   Extra things: 
+*   Extra thing: 
 */
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include "functions.h"
-
-using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::vector<std::string> name = getName();
+    std::cout << name[0] << " " << name[1] << std::endl;;
 }
